@@ -4,6 +4,9 @@ import Base from '/src/widgets/base';
 import './index.less'
 
 export default class Index extends Base {
+  constructor (props) {
+		super(props);
+	}
 
   componentWillMount () { }
 
